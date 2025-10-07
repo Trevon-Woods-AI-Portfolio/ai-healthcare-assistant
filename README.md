@@ -70,7 +70,7 @@ Base URL: http://localhost:2828/api
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ### 👥 Authors
-Trevon Woods - Initial work - Trevon-Woods-AI-Portfolio
+Trevon Woods - Initial work - [Trevon-Woods-AI-Portfolio](https://github.com/Trevon-Woods-AI-Portfolio)
 
 ### 🙏 Acknowledgments
 - OpenAI for AI integration
