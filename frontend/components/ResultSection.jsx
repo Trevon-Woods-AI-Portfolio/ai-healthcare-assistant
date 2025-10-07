@@ -17,11 +17,11 @@ const ResultSection = () => {
       }
     >
       <div className="border-2 border-black rounded-xl w-[40%] shadow-md shadow-gray-900 hover:shadow-lime-400 p-4">
-        {diagnosis !== null && diagnosis.diagnosis.diagnosis}
+        {diagnosis.length > 0 ? diagnosis.diagnosis.diagnosis: null}
       </div>
       <div className="flex flex-col items-center w-[10%] gap-4">
         <p className="flex justify-center items-center w-full border border-black border-r-0 border-l-0 border-t-0 text-lime-400 shadow-sm shadow-gray-900 mb-4">Medicines</p>
-        {diagnosis !== null &&
+        {diagnosis.length > 0 ?
           diagnosis.diagnosis.medicines.map((medicine, i) => (
             <Medicines
               key={i}
@@ -29,7 +29,7 @@ const ResultSection = () => {
               setShowMedicineInfo={setShowMedicineInfo}
               showMedicineInfo={showMedicineInfo}
             />
-          ))}
+          )): null}
       </div>
       {showMedicineInfo === true ? (
         <div className="border-2 border-black rounded-xl w-[40%] shadow-md shadow-gray-900 hover:shadow-lime-400"></div>
