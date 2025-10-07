@@ -1,4 +1,4 @@
-# 🤖 AI Healthcare Assistant
+# 🤖 AI Symptom Analyzing Assistant
 
 
 ## About
