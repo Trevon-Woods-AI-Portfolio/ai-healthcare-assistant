@@ -50,6 +50,10 @@ npm run dev
 - Receive AI-powered health insights
 - Track your health history
 
+![App Screenshot](./images/login.jpg)
+![App Screenshot](./images/search.jpg)
+
+
 ### 📝 API Documentation
 Base URL: http://localhost:2828/api
 
