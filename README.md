@@ -56,8 +56,8 @@ Base URL: http://localhost:2828/api
 ** Endpoints **
 - POST /api/user/register - User registration
 - POST /api/user/login - User authentication
-- POST /api/diagnosis - Create new diagnosis
-- GET /api/diagnosis/history - Get user's diagnosis history
+- POST /api/results/saveResult - Create new diagnosis
+- GET /api/results/getResults - Get user's diagnosis history
 
 ### 🤝 Contributing
 1. Fork the repository
