@@ -1,5 +1,6 @@
 # 🤖 AI Symptom Analyzing Assistant
 
+![AI Healthcare Assistant Logo](./src/assets/Logo.png)
 
 ## About
 AI Healthcare Assistant is a cutting-edge medical diagnostic tool that leverages artificial intelligence to provide preliminary health assessments. By combining advanced machine learning algorithms with user-friendly interfaces, it helps users understand potential health conditions based on their symptoms, bridging the gap between initial health concerns and professional medical consultation.
